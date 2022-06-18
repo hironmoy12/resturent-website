@@ -1,0 +1,66 @@
+.sub-header{
+    background-color: #a4c639;
+    height: 46px;
+    line-height: 46px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+   
+}
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.fas fa-phone{
+    margin-left: 40px;
+    
+}
+.fas fa-envelope{
+    float: left;
+    
+}
+.right-info{
+    float: right;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border:15px 10px;
+    flex: content;
+}
+.row{
+display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.right-info{
+    margin-left: 100px;
+}
+.navbar-header{
+    background-color: rgb(3, 54, 58);
+     background-repeat: no-repeat; 
+     background-size: cover; 
+     height:100%;
+     width: 100%; 
+     padding:0px;
+     
+    
+}
+.collapse navbar-collapse:hover{
+    background-color: crimson;
+    
+}
+.fas {
+    font-family: "Font Awesome 5 Free";
+    color: white;
+}
+a:hover{
+    background-color:white;
+    text-decoration: underline;
+}
+.navbar-brand{
+    color: lightblue;
+}

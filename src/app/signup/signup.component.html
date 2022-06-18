@@ -1,0 +1,29 @@
+<div id="mypage">
+    <form [formGroup]="form" (ngSubmit)="Submit()">
+       <label for="fname">First name:</label><br>
+       <input type="text" id="fname"  formControlName="fname"><br>
+       <div *ngIf="form.controls['fname'].errors?.required">
+           Required feild
+               </div>
+       <label for="lname" >Last name:</label><br>
+       <input type="text" id="lname"  formControlName="lname"><br>
+       <div *ngIf="form.controls['lname'].errors?.required">
+           Required feild
+               </div>
+       <label for="email">Email</label><br>
+       <input type="email" id="email" formControlName="email"> <br>
+       <div *ngIf="form.controls['email'].errors?.required">
+           Required feild
+               </div>
+       <label for="password">password</label><br>
+       <input type="password" id="password" formControlName="password">
+       <div *ngIf="form.controls['password'].errors?.required">
+           Required feild
+               </div>
+               <p>{{this.errMsg}}</p>
+               <br>
+       <button type="submit" class="btn btn-primary" [disabled]="form.invalid">
+         Sign up  </button>
+     </form> 
+     </div>
+   

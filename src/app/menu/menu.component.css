@@ -1,0 +1,138 @@
+
+  .heading{
+    text-align: center;
+    margin-left: 100px;
+    font-size: 2.9rem;
+    color: chocolate;
+  }
+  @import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+body{
+    background: #f2f2f2;
+    font-family: 'Poppins', sans-serif;
+}
+
+h3{
+    font-family: 'Poppins', sans-serif;
+}
+
+.social-box .box{
+    background: #FFF;
+    border-radius: 10px; 
+    padding: 22px 10px;
+    /* margin: 20px 0px; */
+    cursor: pointer;
+    transition: all 0.5s ease-out;
+}
+
+.social-box .box:hover{
+   box-shadow: 0 0 6px #4183D7;
+}
+
+.social-box .box .box-text{
+    margin:20px 0px;
+    font-size: 15px;
+    line-height: 30px;
+}
+
+.social-box .box .box-btn a{
+    text-decoration: none;
+    color: #4183D7;
+    font-size: 16px;
+}
+
+.fa{
+     color:#4183D7;
+} 
+
+ @import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+body{
+    background: #f2f2f2;
+    font-family: 'Poppins', sans-serif;
+}
+
+h3{
+    font-family: 'Poppins', sans-serif;
+   
+}
+
+.social-box .box{
+    background: #FFF;
+    border-radius: 10px; 
+    padding: 40px 10px;
+    margin: 20px 0px;
+    cursor: pointer;
+    transition: all 0.5s ease-out;
+}
+
+.social-box .box:hover{
+   box-shadow: 0 0 6px #4183D7;
+}
+
+.social-box .box .box-text{
+    margin:20px 0px;
+    font-size: 15px;
+    line-height: 30px;
+}
+
+.social-box .box .box-btn a{
+    text-decoration: none;
+    color: #4183D7;
+    font-size: 16px;
+}
+
+.fa{
+     color:#4183D7;
+}
+
+.box img{
+    width: 61% !important;
+}
+
+
+.box-new{
+    background: #FFF !important;
+   border-radius: 10px !important;
+   padding: 22px 10px !important;
+   /* margin: 20px 0px !important; */
+   cursor: pointer !important;
+   transition: all 0.5s ease-out !important;
+   }
+   .box-new:hover{
+     box-shadow: 0 0 6px #4183D7 !important;
+   }
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 0;
+    margin-left: 0;
+    align-items: center;
+    justify-content: center;
+  }
+  .veg-row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 0;
+    margin-left: 0;
+    align-items: center;
+    justify-content: flex-start;
+  }
+.box-title h3{
+    padding-top: 20px;
+}
+.box-text span{
+    margin: 3px 0px !important;
+    font-size: 15px !important;
+    line-height: 30px !important;
+    font-weight: 800 !important;
+  }
+  .container h1{
+    text-align: center !important;
+    text-align: center;
+    padding-top: 27px !important;
+    color: brown !important;
+    font-size: 50px !important;
+    font-weight: 900 !important;
+  }
